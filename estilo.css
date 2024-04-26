@@ -4,175 +4,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Título */
-header#titulo h1 {
-    font-family: 'Franklin Gothic Medium', sans-serif;
-    font-weight: bolder;
+body h2 {
+    font-size: 35px;
     font-style: oblique;
-    font-size: 50px;
-    margin-top: 5px;
 }
 
-/* Menu */
-nav#menu {
-    display: block;
+section#entreterimento h2 {
+    color: brown;
 }
 
-nav#menu ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: -20px;
-    left: 390px;
-}
-
-nav#menu li {
-    display: inline-block;
-    background-color: #ddd;
-    padding: 20px;
-    margin: 2px;
-    transition: background-color 1s;
-}
-
-nav#menu li:hover {
-    background-color: #606060;
-}
-
-nav#menu h1 {
-    display: none;
-}
-
-nav#menu a {
-    color: black;
-    text-decoration: none;
-}
-
-nav#menu a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-/* x */
-
-section h2 {
-    text-align: center;
+section#entreterimento h3 {
     font-weight: bolder;
-    font-size: 30px;
 }
 
-article#um h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
+section#entreterimento p {
+    font-style: italic;
 }
 
-article#um p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
+section#tec h2 {
+    color: deeppink;
 }
 
-article#dois h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
+section#tec h3 {
+    font-weight: bolder;
 }
 
-article#dois p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
-}
-
-article#tres h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
-}
-
-article#tres p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
-}
-
-article#quatro h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
-}
-
-article#quatro p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
-}
-
-article#cinco h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
-}
-
-article#cinco p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
-}
-
-article#seis h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
-}
-
-article#seis p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
-}
-
-article#sete h3 {
-    display: block;
-    position: absolute;
-    margin: -170px 0px 0px 350px;
-}
-
-article#sete p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -130px 0px 0px 350px;
-}
-
-article#oito h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 400px;
-}
-
-article#oito p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -160px 0px 0px 400px;
-}
-
-article#nove h3 {
-    display: block;
-    position: absolute;
-    margin: -200px 0px 0px 350px;
-}
-
-article#nove p {
-    display: block;
-    position: absolute;
-    width: 500px;
-    margin: -150px 0px 0px 350px;
+section#tec p {
+    font-style: oblique;
 }
