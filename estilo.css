@@ -1,34 +1,120 @@
-@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
-body {
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body h2 {
-    font-size: 35px;
-    font-style: oblique;
+.articles article h3 {
+    font-size: 24px;
 }
 
-section#entreterimento h2 {
-    color: brown;
+section h2 {
+    font-size: 32px;
 }
 
-section#entreterimento h3 {
-    font-weight: bolder;
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
 }
 
-section#entreterimento p {
-    font-style: italic;
+#sports .articles article a {
+    background-color:  #009432;
 }
 
-section#tec h2 {
-    color: deeppink;
+#economy {
+    background-color: #fffa65;
 }
 
-section#tec h3 {
-    font-weight: bolder;
+#economy .articles article a {
+    background-color: #ff9f1a;
 }
 
-section#tec p {
-    font-style: oblique;
+#entreterimento {
+    background-color: rgba(67, 54, 115, 0.1);
+}
+
+#entreterimento .articles article a {
+    background-color:  #a344a1;
+}
+
+#tec {
+    background-color: rgba(43, 155, 196, 0.1);
+}
+
+#tec .articles article a {
+    background-color:  #e31919;
 }
